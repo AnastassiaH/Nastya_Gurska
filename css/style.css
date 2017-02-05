@@ -95,8 +95,8 @@ ol, ul {
     height: 30px; }
     .header .top_menu button span {
       display: block;
-      width: 20px;
-      height: 15px; }
+      width: 30px;
+      height: 30px; }
       .header .top_menu button span i {
         font-size: 30px;
         color: #5D706C; }
@@ -130,7 +130,7 @@ ol, ul {
             padding: 5px 30px;
             animation-delay: .4s; }
   .header .menu_open {
-    margin-top: 210px;
+    margin-top: 260px;
     transition: all 1s; }
 
 #about_me {
