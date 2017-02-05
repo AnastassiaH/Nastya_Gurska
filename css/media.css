@@ -19,6 +19,10 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
     
+    .header{
+        padding-top: 15px;
+    }
+    
     .header .top_menu #responcive-menu ul{
         width: 100%;
     }
