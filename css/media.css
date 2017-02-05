@@ -17,7 +17,7 @@
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 767px) {
     
     .header .top_menu #responcive-menu ul{
         width: 100%;
@@ -66,6 +66,15 @@
     .little_wrap{
         margin-top: 20px;
     }
+    
+    .cont_item{
+        margin-left: 20px;
+    }
+    
+    #about_me button.up{
+        top: 10px;
+        right: 10px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -75,7 +84,44 @@
     }
     .little_wrap{
         width: 80%;
+        margin: 20px auto;
+    }
+    
+    #works .tab-content .tab-item{
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 15px;
+    }
+    
+    #contacts .contacts_item{
+        width: 100%;
+    }
+    
+    #contacts .contacts_item .cont_item{
+        text-align: center;
+    }
+    
+    #contacts form{
+        margin-top: 30px;
+    }
+    
+    #resume .resume_desc{
+        width: 90%;
         margin: 0 auto;
+    }
+    
+    #resume .resume_desc p{
+        line-height: 20px;
+    }
+    
+    .footer .footer_item{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .footer .footer_item ul{
+        display: inline-block;
+        float: none;
     }
 }
 

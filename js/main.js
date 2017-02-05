@@ -15,6 +15,16 @@ $(document).ready(function(){
         $("#btn-toogle span i").toggleClass("fa-times");
     });
     
+    $("#btn-toogle").click(function() {
+        $(".main_text").toggleClass("menu_open");
+    });
+    
+    if (($(window).width() < 800) && ($(window).width() > 415)){
+        $("#btn-toogle").click(function() {
+        $(".main_wrapper").toggleClass("hidden");
+    });
+    };
+    
     //scroll
     $(".header a").mPageScroll2id();
     
