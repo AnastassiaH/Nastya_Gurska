@@ -29,7 +29,7 @@
     .header .top_menu #responcive-menu ul li{
         float: none;
         overflow: hidden;
-        margin-bottom: 20px;
+        margin: 0 0 20px 0;
         width: 100%;
     }
     
