@@ -63,11 +63,12 @@ ol, ul {
   .header .top_menu .navbar {
     z-index: 10; }
   .header .top_menu #responcive-menu {
-    float: right;
     padding-right: 0;
     margin-top: 5px; }
     .header .top_menu #responcive-menu ul {
-      height: auto; }
+      height: auto;
+      float: none;
+      display: inline-block; }
       .header .top_menu #responcive-menu ul li {
         float: left;
         height: 35px;
