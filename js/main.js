@@ -63,4 +63,17 @@ $(document).ready(function(){
 		owl.trigger("owl.prev");
 	});
     
+    //parallax
+    $(window).scroll(function(){
+        var st = $(this).scrollTop();
+    
+        $('.main_text').css({
+            "transform" : "translate(0%, " + st/6 + "%)"
+        });
+        
+        $('#resume .resume_h').css({
+            "transform" : "translate(0%, " + st/40 + "%)"
+        });
     });
+    
+});
