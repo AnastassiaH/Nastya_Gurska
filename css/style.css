@@ -72,15 +72,17 @@ ol, ul {
   position: relative;
   padding-top: 30px;
   z-index: 10; }
-  .header .top_menu .languages a,
-  .header .top_menu .languages span {
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 35px;
-    color: #A17712;
-    text-decoration: none; }
-  .header .top_menu .languages a.active {
-    color: #3b463e; }
+  .header .top_menu .languages {
+    margin-top: 5px; }
+    .header .top_menu .languages a,
+    .header .top_menu .languages span {
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 35px;
+      color: #A17712;
+      text-decoration: none; }
+    .header .top_menu .languages a.active {
+      color: #3b463e; }
   .header .top_menu .navbar {
     z-index: 10; }
   .header .top_menu #responcive-menu {

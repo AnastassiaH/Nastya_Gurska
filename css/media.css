@@ -102,6 +102,14 @@
         margin-bottom: 15px;
     }
     
+    #contacts form label{
+        left: 5%;
+    }
+    
+    #contacts form .field{
+        padding-left: 2%;
+    }
+    
     #contacts .contacts_item{
         width: 100%;
     }
