@@ -23,6 +23,11 @@
         padding-top: 15px;
     }
     
+    .languages{   
+    text-align: left;
+    margin-top: 17px;
+    }
+    
     .header .top_menu #responcive-menu ul{
         width: 100%;
     }
