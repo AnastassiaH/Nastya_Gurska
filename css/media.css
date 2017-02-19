@@ -23,9 +23,9 @@
         padding-top: 15px;
     }
     
-    .languages{   
+    .header .top_menu .languages{   
     text-align: left;
-    margin-top: 17px;
+    margin-top: 17px !important;
     }
     
     .header .top_menu #responcive-menu ul{
