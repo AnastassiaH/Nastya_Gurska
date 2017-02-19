@@ -1,3 +1,23 @@
+@font-face {
+    font-family: 'Lato';
+    src: url("../fonts/LatoRegular/LatoRegular.eot");
+    src: url("../fonts/LatoRegular/LatoRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/LatoRegular/LatoRegular.woff") format("woff"),
+    url("../fonts/LatoRegular/LatoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "LatoBold";
+    src: url("../fonts/LatoBold/LatoBold.eot");
+    src: url("../fonts/LatoBold/LatoBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/LatoBold/LatoBold.woff") format("woff"),
+    url("../fonts/LatoBold/LatoBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 html {height: 100%;}
 body {
 	height: 100%;
@@ -64,6 +84,21 @@ ol, ul {list-style: none;}
     z-index: 10;
     
     .top_menu{
+        
+        .languages{
+            a,
+            span{
+                font-size: 16px;
+                font-weight: bold;
+                line-height: 35px;
+                color: #A17712;
+                text-decoration: none
+            }
+            
+            a.active{
+                color: rgb(59, 70, 62);
+            }
+        }
         
         .navbar{
             z-index: 10;
